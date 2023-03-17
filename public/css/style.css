@@ -162,10 +162,10 @@ i {
     background-image: url(../img/quote.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 40px;
+    background-size: 20px;
     content: '';
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     display: block;
     margin-bottom: 1rem;
 }
