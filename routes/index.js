@@ -4,15 +4,15 @@ const router = express.Router();
 
 // Ruta principal
 router.get('/', (req, res) => {
-    res.send('Index');
+    res.render('inicio');
 });
 
 router.get('/nosotros', (req, res) => {
-    res.send('Nosotros');
+    res.render('nosotros');
 });
 
 router.get('/contacto', (req, res) => {
-    res.send('Contacto');
+    res.render('contacto');
 });
 
 export default router;
